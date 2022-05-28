@@ -67,9 +67,9 @@ class Display:
 
 	def _init_input(self):
 		# Init constants and variables 
-		CLK_PIN = 16  # Clock - GPIO16
-		DT_PIN = 20  # DT - GPIO20
-		SW_PIN = 21  # Switch - GPIO21
+		CLK_PIN = 20  # Clock - GPIO20
+		DT_PIN = 19  # DT - GPIO19
+		SW_PIN = 16  # Switch - GPIO16
 		self.input_event = None
 		self.input_counter = 0
 
